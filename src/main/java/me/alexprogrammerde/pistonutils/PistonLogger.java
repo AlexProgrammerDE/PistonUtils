@@ -7,6 +7,7 @@ import java.util.logging.Logger;
 /**
  * Alternative logger that allows the usage of the Java Utils logger and the slf4 logger!
  */
+@SuppressWarnings({"unused"})
 public class PistonLogger {
     private Logger log1 = null;
     private org.slf4j.Logger log2 = null;
