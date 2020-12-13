@@ -12,14 +12,15 @@ public class PistonLogger {
     private Logger log1 = null;
     private org.slf4j.Logger log2 = null;
 
-    public PistonLogger(Logger log) {
+    public PistonLogger(Object log) {
         Preconditions.checkNotNull(log, "Logger can't be null!");
-        this.log1 = log;
-    }
+        Preconditions.checkArgument(log instanceof Logger || log instanceof org.slf4j.Logger, "The object isn't a supported logger!");
 
-    public PistonLogger(org.slf4j.Logger log) {
-        Preconditions.checkNotNull(log, "Logger can't be null!");
-        this.log2 = log;
+        if (log instanceof Logger) {
+            log1 = (Logger) log;
+        } else {
+            log2 = (org.slf4j.Logger) log;
+        }
     }
 
     public void info(String message) {
