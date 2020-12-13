@@ -20,7 +20,7 @@ public class UpdateChecker {
                 consumer.accept(scanner.next());
             }
         } catch (IOException exception) {
-            log.warning(ConsoleColor.RED_BOLD + "Cannot look for updates: " + exception.getMessage() + ConsoleColor.RESET);
+            log.info(ConsoleColor.RED_BOLD + "Cannot look for updates: " + exception.getMessage() + ConsoleColor.RESET);
         }
     }
 }
