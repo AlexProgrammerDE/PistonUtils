@@ -8,6 +8,7 @@
     <artifactId>PistonUtils</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
+    <description>Plugin utils. Adds things like a pro update parser and console colors!</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -24,7 +25,7 @@
 
     <issueManagement>
         <system>Github Issues</system>
-        <url>https://github.com/AlexProgrammerDE/PistonChat/issues</url>
+        <url>https://github.com/AlexProgrammerDE/PistonUtils/issues</url>
     </issueManagement>
 
     <distributionManagement>

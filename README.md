@@ -1,2 +1,2 @@
 # PistonUtils
-Plugin utils. Adds things like an pro update parser and console colors!
+Plugin utils. Adds things like a pro update parser and console colors!
