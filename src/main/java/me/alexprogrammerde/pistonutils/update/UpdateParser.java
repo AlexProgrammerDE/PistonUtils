@@ -1,4 +1,4 @@
-package me.alexprogrammerde.pistonutils;
+package me.alexprogrammerde.pistonutils.update;
 
 import javax.annotation.Nonnull;
 import java.util.ArrayList;

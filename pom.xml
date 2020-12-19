@@ -6,7 +6,7 @@
 
     <groupId>me.alexprogrammerde</groupId>
     <artifactId>PistonUtils</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
     <description>Plugin utils. Adds things like a pro update parser and console colors!</description>
 
@@ -38,6 +38,10 @@
             <url>https://repo.codemc.io/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <scm>
+        <connection>scm:git:https://github.com/AlexProgrammerDE/PistonUtils</connection>
+    </scm>
 
     <build>
         <pluginManagement>

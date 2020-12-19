@@ -1,4 +1,4 @@
-package me.alexprogrammerde.pistonutils;
+package me.alexprogrammerde.pistonutils.update;
 
 /**
  * Types defined by semantic versioning: https://semver.org/
