@@ -6,7 +6,7 @@
 
     <groupId>me.alexprogrammerde</groupId>
     <artifactId>PistonUtils</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <packaging>jar</packaging>
     <description>Plugin utils. Adds things like a pro update parser and console colors!</description>
 
@@ -84,6 +84,10 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -106,6 +110,11 @@
             <version>1.16-R0.4-SNAPSHOT</version>
             <type>javadoc</type>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.dtmo</groupId>
+            <artifactId>jfiglet</artifactId>
+            <version>1.0.1</version>
         </dependency>
     </dependencies>
 </project>
