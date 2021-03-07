@@ -1,10 +1,12 @@
-package me.alexprogrammerde.pistonutils;
+package net.pistonmaster.pistonutils;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings({"unused"})
 public class StringUtil {
+    private StringUtil() {}
+
     /**
      * Very useful for tab completion
      * @param original The argument to compare with

@@ -1,4 +1,4 @@
-package me.alexprogrammerde.pistonutils.update;
+package net.pistonmaster.pistonutils.update;
 
 /**
  * Types defined by semantic versioning: https://semver.org/

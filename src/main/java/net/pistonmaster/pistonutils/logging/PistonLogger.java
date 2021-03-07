@@ -1,4 +1,4 @@
-package me.alexprogrammerde.pistonutils;
+package net.pistonmaster.pistonutils.logging;
 
 import com.google.common.base.Preconditions;
 

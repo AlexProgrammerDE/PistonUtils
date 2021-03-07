@@ -1,7 +1,7 @@
-package me.alexprogrammerde.pistonutils.update;
+package net.pistonmaster.pistonutils.update;
 
-import me.alexprogrammerde.pistonutils.ConsoleColor;
-import me.alexprogrammerde.pistonutils.PistonLogger;
+import net.pistonmaster.pistonutils.logging.ConsoleColor;
+import net.pistonmaster.pistonutils.logging.PistonLogger;
 
 import java.io.IOException;
 import java.io.InputStream;

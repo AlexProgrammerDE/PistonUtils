@@ -1,4 +1,4 @@
-package me.alexprogrammerde.pistonutils;
+package net.pistonmaster.pistonutils.logging;
 
 import com.github.dtmo.jfiglet.FigFontResources;
 import com.github.dtmo.jfiglet.FigletRenderer;

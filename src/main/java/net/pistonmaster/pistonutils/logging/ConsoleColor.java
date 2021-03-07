@@ -1,4 +1,4 @@
-package me.alexprogrammerde.pistonutils;
+package net.pistonmaster.pistonutils.logging;
 
 /**
  * Small collection of color codes for getting colors into the sponge console

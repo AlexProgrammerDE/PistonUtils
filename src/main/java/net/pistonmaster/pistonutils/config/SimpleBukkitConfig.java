@@ -1,4 +1,4 @@
-package me.alexprogrammerde.pistonutils.config;
+package net.pistonmaster.pistonutils.config;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;

@@ -1,4 +1,4 @@
-package me.alexprogrammerde.pistonutils.config;
+package net.pistonmaster.pistonutils.config;
 
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
