@@ -6,7 +6,7 @@
 
     <groupId>net.pistonmaster</groupId>
     <artifactId>PistonUtils</artifactId>
-    <version>1.2.1</version>
+    <version>1.3.0</version>
     <packaging>jar</packaging>
     <description>Plugin utils. Adds things like a pro update parser and console colors!</description>
 
@@ -77,40 +77,12 @@
 
     <repositories>
         <repository>
-            <id>papermc-repo</id>
-            <url>https://papermc.io/repo/repository/maven-public/</url>
-        </repository>
-        <repository>
-            <id>sonatype</id>
-            <url>https://oss.sonatype.org/content/groups/public/</url>
-        </repository>
-        <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>com.destroystokyo.paper</groupId>
-            <artifactId>paper-api</artifactId>
-            <version>1.16.4-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.md-5</groupId>
-            <artifactId>bungeecord-api</artifactId>
-            <version>1.16-R0.4</version>
-            <type>jar</type>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.md-5</groupId>
-            <artifactId>bungeecord-api</artifactId>
-            <version>1.16-R0.4</version>
-            <type>javadoc</type>
-            <scope>provided</scope>
-        </dependency>
         <dependency>
             <groupId>com.github.dtmo</groupId>
             <artifactId>jfiglet</artifactId>

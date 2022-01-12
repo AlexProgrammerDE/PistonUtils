@@ -1,6 +1,5 @@
 package net.pistonmaster.pistonutils.update;
 
-import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
@@ -10,7 +9,7 @@ public class UpdateParser {
     private final String currentV;
     private final String webV;
 
-    public UpdateParser(@Nonnull String currentV, @Nonnull String webV) {
+    public UpdateParser(String currentV, String webV) {
         this.currentV = currentV;
         this.webV = webV;
     }
