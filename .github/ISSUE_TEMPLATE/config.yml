@@ -1,0 +1,6 @@
+blank_issues_enabled: true
+contact_links:
+- name: Support guide
+  url: https://github.com/AlexProgrammerDE/PistonUtils/blob/main/SUPPORT.md
+  about: Read setup guidance or ask a usage question before opening a development
+    issue.
